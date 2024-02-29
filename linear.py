@@ -27,7 +27,7 @@ if __name__ == "__main__":
     # Create a Linear layer
     linear = Linear(5, 3)
 
-    # Create some inputs
+    # Create some random inputs
     inputs = tn.randn(1, 5)
 
     # Forward pass
